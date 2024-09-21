@@ -1,6 +1,6 @@
 {
   "name": "@wpbones/wpkirk",
-  "version": "1.5.10",
+  "version": "1.6.0",
   "scripts": {
     "start:gulp": "gulp watch",
     "build:gulp": "gulp build",
@@ -10,7 +10,7 @@
     "start": "run-s start:gulp start:apps"
   },
   "license": "GPL-3.0",
-  "author": "Giovambattista Fazioli <jonfazioli@gmail.com>",
+  "author": "Giovambattista Fazioli <wpbones.info@gmail.com>",
   "devDependencies": {
     "@babel/core": "^7.24.3",
     "@babel/preset-env": "^7.24.3",
