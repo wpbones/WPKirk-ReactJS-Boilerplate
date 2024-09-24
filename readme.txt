@@ -1,4 +1,4 @@
-=== WP Kirk ===
+=== WP Kirk ReactJS Boilerplate ===
 Contributors: gfazioli
 Donate link: https://wpbones.vercel.app/
 Tags: template, wpbones
@@ -8,11 +8,11 @@ Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WP Bones boilerplate plugin.
+WP Bones ReactJS Boilerplate plugin.
 
 == Description ==
 
-WP Bones boilerplate plugin
+WP Bones ReactJS Boilerplate plugin
 
 == Installation ==
 
