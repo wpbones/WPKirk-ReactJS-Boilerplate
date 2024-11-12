@@ -1,7 +1,7 @@
 <?php
 
 if (!defined('ABSPATH')) {
-    exit();
+  exit();
 }
 
 /*
@@ -15,20 +15,20 @@ if (!defined('ABSPATH')) {
 */
 
 return [
-    'wp_kirk_slug_menu' => [
-        "page_title" => "WP Kirk Page",
-        "menu_title" => "WP Kirk Menu",
+  'wp_kirk_slug_menu' => [
+    "page_title" => "ReactJS",
+    "menu_title" => "ReactJS",
+    'capability' => 'read',
+    'icon' => 'wpbones-logo-menu.png',
+    'items' => [
+      [
+        "page_title" => __('Main View', 'wp-kirk'),
+        "menu_title" => __('Main View', 'wp-kirk'),
         'capability' => 'read',
-        'icon' => 'wpbones-logo-menu.png',
-        'items' => [
-            [
-                "page_title" => "Main View",
-                "menu_title" => "Main View",
-                'capability' => 'read',
-                'route' => [
-                    'get' => 'Dashboard\DashboardController@index'
-                ],
-            ],
-        ]
+        'route' => [
+          'get' => 'Dashboard\DashboardController@index'
+        ],
+      ],
     ]
+  ]
 ];
