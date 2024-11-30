@@ -31,6 +31,6 @@
 
   </div>
 
-  <?php wpkirk_toc('Hooks') ?>
+  <?php wpkirk_toc('ReactJS') ?>
 
 </div>
