@@ -17,6 +17,6 @@ class DashboardController extends Controller
       ->withAdminStyle('prism')
       ->withAdminScript('prism')
       ->withAdminStyle('wp-kirk-common')
-      ->withAdminAppsScripts('app');
+      ->withAdminAppsScript('app');
   }
 }
