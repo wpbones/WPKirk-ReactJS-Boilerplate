@@ -78,11 +78,7 @@ const App = () => {
             __nextHasNoMarginBottom
             __next40pxDefaultSize
           />
-          {name && (
-            <p style={{ marginTop: 12 }}>
-              {sprintf(__('Hello, %s!', 'wp-kirk'), name)}
-            </p>
-          )}
+          {name && <p style={{ marginTop: 12 }}>{sprintf(__('Hello, %s!', 'wp-kirk'), name)}</p>}
         </CardBody>
       </Card>
     </Flex>
